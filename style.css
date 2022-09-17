@@ -1,0 +1,59 @@
+.profile-img{
+    width: 35px;
+    height: 35px;
+}
+
+
+.text-light {
+    color: #323232; 
+}
+
+.nav-active-border {
+    border-bottom: 4px solid #FF6006;
+}
+
+
+.navbar {
+   
+    padding-top: .5rem;
+     padding-bottom: 0px !important;
+}
+
+.logo{
+	margin-bottom: 7px !important;	
+}
+
+.confirmation-box-bg {
+    background-color: #6E6A88;
+}
+
+.confirmation-box {
+    width: 750px;
+}
+
+
+.text-orange {
+    color: #FF6006;
+}
+
+.confirm-info-box {
+    width: 34rem;
+}
+
+.confirm-top {
+    background-color: #FF6006;
+    color: #EEEEEE;  
+}
+
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    background-color: #FF6006 !important;
+}
+
+.register-style {
+    text-decoration: none;
+    color: #FF6006;
+}
+
+.rating-color {
+    color: #FFDF00;
+}
