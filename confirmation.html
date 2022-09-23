@@ -85,7 +85,8 @@
                             <div class="col">
                                 <div class="row">
                                     <div class="col text-center px-0">
-                                        <img src="./img/christian.jpg" style="width:75px;" class="rounded-circle" alt="">
+                                        <img src="./img/christian.jpg" style="width:75px;" class="rounded-circle"
+                                            alt="">
                                     </div>
                                     <div class="col px-0">
                                         <p class="h6"><span class="badge rounded-pill bg-primary">Seller</span></p>
@@ -96,7 +97,8 @@
                             <div class="col">
                                 <div class="row">
                                     <div class="col text-center px-0">
-                                        <img src="./img/christian.jpg" style="width:75px;" class="rounded-circle" alt="">
+                                        <img src="./img/christian.jpg" style="width:75px;" class="rounded-circle"
+                                            alt="">
                                     </div>
                                     <div class="col px-0">
                                         <p class="h6"><span class="badge rounded-pill bg-primary">Mechanic</span></p>
@@ -113,8 +115,29 @@
                         <button type="button" class="btn btn-primary">Back</button>
                     </div>
                     <div class="col text-end">
-                        <button type="button" class="btn btn-primary">Next</button>
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                            data-bs-target="#thankYouModal">Next</button>
                     </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" id="thankYouModal" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-center mx-2">
+                    <h3>Thank you!</h3>
+                    <p>Thank you for confirming you appointment with us. Kindly wait for our associates to contact you
+                        within 3 working days.</p>
+                </div>
+                <div class="modal-footer">
+                    <!-- <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button> -->
+                    <button type="button" class="btn btn-primary"
+                        onclick="window.location='./index.html';">Continue</button>
                 </div>
             </div>
         </div>
