@@ -49,60 +49,46 @@
         </nav>
     </header>
 
-    <div class="container mt-4">
+    <div class="container mt-4"  style="width: 500px;">
         <div class="row">
-            <h3>Seller Profile</h3>
+            <h3>My Account</h3>
         </div>
 
         <!-- Car Detail Cards -->
-        <div class="row my-3">
-            <div class="card" style="width: 60rem;">
-                <div class="card-body">
-                    <div class="row text-center">
-                        <div class="col-3 text-center px-0">
-                            <img src="./img/christian.jpg" class="rounded-circle" style="width:100px;" alt="">
-                        </div>
-                        <div class="col text-start px-0">
-                            <h4 class="mt-2">Mr. Peter Parker</h4>
-                            <h5 class="my-3"><i class="fa-solid fa-location-dot"></i>&nbsp;&nbsp;Bangkok, 10240
-                            </h5>
-                        </div>
-                    </div>
-                    <div class="row mt-4 mb-3">
-                        <ul class="nav nav-tabs">
-                            <li class="nav-item">
-                                <a class="nav-link active px-5" aria-current="page" href="./seller_profile.html">Info</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link px-5" href="./seller_profile_cars.html">Cars</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="row my-3 text-center">
-                        <div class="col">
-                            <div class="row text-start ms-5 mt-4">
-                                <h5 class="">Phone Number</h5>
-                                <p class="fs-5">0673857292</p>
-                                <h5 class="">Email Address</h5>
-                                <p class="fs-5">mr.peterparker@gmail.com</p>
-                                <h5 class="">Joined On</h5>
-                                <p class="fs-5">June 13th, 2022</p>
-                            </div>
-
-                        </div>
-                    </div>
-
-                    <div class="row">
-                        <div class="col">
-                            <button type="button" class="btn p btn-primary"
-                                onclick="window.location='./vehicle-details.html';">Back</button>
-                        </div>
-                        <div class="col-2 text-end">
-                            <!-- <button type="button" class="btn p btn-primary">Confirm</button> -->
-                        </div>
-                    </div>
-
+        <div class="mx-auto">
+            <div class="my-2">
+                <label for="inputName4" class="form-label">Your Name</label>
+                <input type="email" class="form-control" id="inputEmail4">
+            </div>
+            <div class="my-2">
+                <label for="inputDate4" class="form-label">Date of Birth</label>
+                <input type="date" class="form-control" id="inputEmail4">
+            </div>
+            <div class="my-2">
+                <label for="inputEmail4" class="form-label">Email Address</label>
+                <input type="email" class="form-control" id="inputEmail4">
+            </div>
+            <div class="my-2">
+                <label for="inputPhone4" class="form-label">Phone Number</label>
+                <input type="phonenumber" class="form-control" id="inputEmail4">
+            </div>
+            <!-- <div class="my-2">
+                <label for="inputPassword4" class="form-label">Password</label>
+                <input type="password" class="form-control" id="inputEmail4">
+            </div> -->
+            <!-- <div class="my-2">
+                <label for="inputPassword4" class="form-label">Location</label>
+                <input type="text" class="form-control" id="inputEmail4">
+            </div> -->
+            <div class="row text-center my-4">
+                <div class="col">
+                    <button type="button" class="btn btn-primary px-5" onclick="window.location='./buyer_account.html';">Cancel</button>
                 </div>
+                <div class="col">
+                    <button type="button" class="btn btn-primary px-5">Edit</button>
+                </div>
+                
+                
             </div>
         </div>
 

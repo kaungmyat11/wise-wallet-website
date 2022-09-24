@@ -47,6 +47,7 @@
 
 .btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
     background-color: #FF6006 !important;
+    border: none !important;
 }
 
 .register-style {
